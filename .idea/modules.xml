@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WTM2018.iml" filepath="$PROJECT_DIR$/WTM2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ble/ble.iml" filepath="$PROJECT_DIR$/ble/ble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kutil/kutil.iml" filepath="$PROJECT_DIR$/kutil/kutil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/led/led.iml" filepath="$PROJECT_DIR$/led/led.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile/mobile.iml" filepath="$PROJECT_DIR$/mobile/mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/things/things.iml" filepath="$PROJECT_DIR$/things/things.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thingsdata/thingsdata.iml" filepath="$PROJECT_DIR$/thingsdata/thingsdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uln2003/uln2003.iml" filepath="$PROJECT_DIR$/uln2003/uln2003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weardata/weardata.iml" filepath="$PROJECT_DIR$/weardata/weardata.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,56 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "2018-03-29"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //PhotoView needs maven { url 'https://jitpack.io' } in project build.gradle
+    implementation 'com.github.chrisbanes:PhotoView:2.1.3'
+
+    //common libs
+
+    //glide
+    api 'com.github.bumptech.glide:glide:4.6.1'
+    kapt 'com.github.bumptech.glide:compiler:4.6.1'
+    //SimpleAdapter
+    api 'com.android.support:recyclerview-v7:27.1.0'
+    //save and load Pref
+    api 'com.google.code.gson:gson:2.8.1'
+    api 'com.github.salomonbrys.kotson:kotson:2.5.0'
+    //quick SnackBar SnackTool
+    api 'com.android.support:design:27.1.0'
+    api 'org.jetbrains.anko:anko:0.10.4'
+    //Networker
+    api 'com.squareup.okhttp3:okhttp:3.9.1'
+    //any permissions
+    api 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
+    api "io.reactivex.rxjava2:rxjava:2.1.8"
+}
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'kotlin-android-extensions'

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ble_connecting">正在连接</string>
+    <string name="ble_content_location_service">蓝牙扫描所需的位置服务被禁用，请开启后重试</string>
+    <string name="ble_disconnect">断开</string>
+    <string name="ble_go_to_settings">去设置</string>
+    <string name="ble_got_it">知道了</string>
+    <string name="ble_title_location_service">位置服务</string>
+    <string name="ble_connect">连接</string>
+    <string name="ble_connected_devices">已连接设备</string>
+    <string name="ble_near_devices">附近设备</string>
+    <string name="ble_alias">别名</string>
+    <string name="ble_set_alias">设置别名</string>
+</resources>

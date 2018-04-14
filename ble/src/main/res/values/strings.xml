@@ -1,0 +1,13 @@
+<resources>
+    <string name="ble_connecting">Connecting</string>
+    <string name="ble_disconnect">Disconnect</string>
+    <string name="ble_connect">Connect</string>
+    <string name="ble_title_location_service">Location Service</string>
+    <string name="ble_content_location_service">Location service is disabled, please enable it in your System Settings to start BLE scanning</string>
+    <string name="ble_go_to_settings">goto settings</string>
+    <string name="ble_got_it">got it</string>
+    <string name="ble_connected_devices">Connected devices</string>
+    <string name="ble_near_devices">Near devices</string>
+    <string name="ble_alias">Alias</string>
+    <string name="ble_set_alias">Set alias</string>
+</resources>
